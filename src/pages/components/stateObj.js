@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import {useState} from 'react';
 
 export default function PersonData() {
     const [fName, setFName] = useState('');
@@ -11,13 +11,16 @@ export default function PersonData() {
         setPerson({fullName: name, age: age});
     }
 
-    return(
-       <>
-            <textarea value={fName} onChange={e => setFName(e.target.value)} />
-            <textarea value={lName} onChange={e => setLName(e.target.value)} />
-            <textarea value={age} onChange={e => setAge(e.target.value)} />
-            <button onClick={handleClick}> Save </button>
+    return (
+        <>
+            <label>FName</label>
+            <textarea value={fName} onChange={e => setFName(e.target.value)}/>
+            <label>LName</label>
+            <textarea value={lName} onChange={e => setLName(e.target.value)}/>
+            <label>Age</label>
+            <textarea value={age} onChange={e => setAge(e.target.value)}/>
+            <button onClick={handleClick}> Save</button>
             {person.fullName && <p> Person: {person.fullName} is {person.age} years old </p>}
-       </>
+        </>
     )
 }

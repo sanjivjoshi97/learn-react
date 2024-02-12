@@ -21,7 +21,7 @@ export default function Holder() {
                 />
             </Square>
             <Square>
-                <label for="image">
+                <label htmlFor="image">
                     <b> Katsuko Saruhashi </b>
                 </label>
             </Square>
