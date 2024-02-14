@@ -2,7 +2,7 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Form from "@/pages/qcomps/stuckForm";
+import Scoreboard from "@/pages/qcomps/updObjectsForm";
 
 export default function Home() {
     return (
@@ -17,7 +17,12 @@ export default function Home() {
             {/*<List/>*/}
             {/*<RecipeList/>*/}
             {/*<PersonData/>*/}
-            <Form/>
+            {/*<Form/>*/}
+            {/*<FeedbackForm/>*/}
+            {/*<Counter/>*/}
+            {/*<Form/>*/}
+            {/*<Form/>*/}
+            <Scoreboard/>
         </div>
     )
 }
