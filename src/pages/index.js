@@ -2,7 +2,7 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Scoreboard from "@/pages/qcomps/updObjectsForm";
+import BucketList from "@/pages/qcomps/arrObj";
 
 export default function Home() {
     return (
@@ -22,7 +22,9 @@ export default function Home() {
             {/*<Counter/>*/}
             {/*<Form/>*/}
             {/*<Form/>*/}
-            <Scoreboard/>
+            {/*<Scoreboard/>*/}
+            {/*<List/>*/}
+            <BucketList/>
         </div>
     )
 }
